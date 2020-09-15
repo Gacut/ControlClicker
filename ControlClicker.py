@@ -12,9 +12,9 @@ counter = 0
 while True:
 	try:
 		x, y = position()
-		print('CTRL + C aby wyjść')
-		print('Proces powtórzono ' + str(counter) + ' razy')
-		print('Pozycja kursora  x: ' + str(x) + ', y: ' + str(y) + '\n',)
+		print('CTRL + C to exit')
+		print('Process repeated ' + str(counter) + ' times')
+		print('Cursor position  x: ' + str(x) + ', y: ' + str(y) + '\n',)
 		press('ctrl')
 		counter += 1
 		sleep(100)
